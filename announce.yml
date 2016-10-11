@@ -1,0 +1,7 @@
+---
+enable: true
+repeat-second: 5
+prefix: '[ 서버 ]'
+suffix: ""
+announce: []
+...

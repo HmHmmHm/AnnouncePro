@@ -173,7 +173,8 @@ class AnnouncePro extends PluginBase implements Listener {
 		
 		if (isset ( $rand ))
 			if (isset ( $this->configData ["announce"] [$rand] ))
-				$this->announceSystem->pushBroadCastPopup ( $text );
+				/*$this->announceSystem->pushBroadCastPopup ( $text );*/
+          $this->getServer()->broadcastMessage( $text );
 	}
 	public function replaceColor($text) {
 		for($i = 0; $i <= 9; $i ++)
